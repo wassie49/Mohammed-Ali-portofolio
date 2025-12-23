@@ -270,12 +270,8 @@ img {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 8px;
+    padding: 5px;
     flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
 }
 
 .mobile-toggle span {
@@ -284,7 +280,6 @@ img {
     background: var(--text-primary);
     transition: var(--transition);
     border-radius: 2px;
-    display: block;
 }
 
 .mobile-toggle.active span:nth-child(1) {
@@ -1292,28 +1287,16 @@ img {
     
     .nav-wrapper {
         padding: 0.8rem 0;
-        display: grid;
-        grid-template-columns: auto 1fr auto;
     }
     
     .logo {
         font-size: 1.3rem;
     }
     
-    .nav-right {
-        display: flex;
-        gap: 8px;
-    }
-    
     .theme-toggle {
-        width: 38px;
-        height: 38px;
+        width: 35px;
+        height: 35px;
         font-size: 1rem;
-    }
-    
-    .mobile-toggle {
-        width: 38px;
-        height: 38px;
     }
     
     .back-to-top {
